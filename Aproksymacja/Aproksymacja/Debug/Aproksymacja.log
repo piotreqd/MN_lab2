@@ -1,5 +1,4 @@
-﻿  stdafx.cpp
-  Aproksymacja.cpp
-c:\users\piotrek\desktop\mn_lab2\aproksymacja\aproksymacja\aproksymacja.cpp(34): warning C4101: 'tabY': unreferenced local variable
-  Aproksymacja.vcxproj -> C:\Users\Piotrek\Desktop\MN_lab2\Aproksymacja\Debug\Aproksymacja.exe
-  Aproksymacja.vcxproj -> C:\Users\Piotrek\Desktop\MN_lab2\Aproksymacja\Debug\Aproksymacja.pdb (Partial PDB)
+﻿  Aproksymacja.cpp
+c:\users\piotrek\desktop\mn_lab2\aproksymacja\aproksymacja\aproksymacja.cpp(43): warning C4101: 'tabY': unreferenced local variable
+c:\users\piotrek\desktop\mn_lab2\aproksymacja\aproksymacja\aproksymacja.cpp(33): error C4700: uninitialized local variable 'secondSum' used
+c:\users\piotrek\desktop\mn_lab2\aproksymacja\aproksymacja\aproksymacja.cpp(35): error C4700: uninitialized local variable 'firstSum' used

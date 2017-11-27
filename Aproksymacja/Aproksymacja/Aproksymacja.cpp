@@ -2,7 +2,6 @@
 //
 
 #include "stdafx.h"
-#include <Windows.h>
 #include <iostream>
 #include <math.h>
 using namespace std;
@@ -23,10 +22,20 @@ void DyskretyzujSinus(double dolPrzedziału, double goraPrzedzialu, int wezly, d
 	}
 }
 
-//double Blad(double tabX[], double tabY[], int a[], int m)
-//{
+double ObliczBlad(double tabX[], double tabY[], int a[], int m, int n)
+{
+	double firstSum, secondSum;
 
-//}
+	for (int i = 0; i <= n; ++i)
+	{
+		for (int j = 0; j <= m; ++j)
+		{
+			secondSum += a[j] * pow(tabX[i], j) - tabY[i];
+		}
+		firstSum += pow(secondSum, 2.0);
+	}
+	return sqrt(firstSum/(n-1));
+}
 
 int main()
 {
